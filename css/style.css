@@ -1,4 +1,36 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sender-column {
+  text-align: right;
+}
+
+#indent{
+  padding-left: 40px;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+p,ul,ol,dl,address {
+  font-size: 1.1em;
+}
+
+p, li, dd, dt, address {
+  line-height: 1.5;
+}
+
+body {
+  border: 5px solid black; 
+  margin: 10px; 
+  padding: 10px; 
+  box-sizing: border-box; 
 }
